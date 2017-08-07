@@ -1,0 +1,114 @@
+body {
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.active {
+  background: #FE4D4D;
+  color: #fff; }
+
+.on {
+  color: #FE4D4D; }
+
+.nav-module {
+  height: .45rem;
+  line-height: .45rem; }
+  .nav-module ul {
+    display: flex;
+    padding: 0 1rem; }
+    .nav-module ul li {
+      text-align: center;
+      -webkit-flex: 1;
+      font-size: .16rem;
+      border-bottom: 2px solid #fff; }
+    .nav-module ul li:hover {
+      color: #FC000E;
+      border-bottom: 2px solid #FC000E; }
+  .nav-module select {
+    color: #999;
+    position: absolute;
+    right: .2rem;
+    top: .16rem;
+    border: none;
+    outline: none; }
+
+.nav-tab {
+  height: .42rem; }
+  .nav-tab ul {
+    display: flex;
+    padding: 0 .3rem;
+    padding-top: .05rem; }
+    .nav-tab ul li {
+      text-align: center;
+      -webkit-flex: 1;
+      font-size: .14rem;
+      border: 1px solid #ccc;
+      padding: .05rem; }
+    .nav-tab ul li:nth-child(1) {
+      border-radius: .05rem 0 0 .05rem; }
+    .nav-tab ul li:nth-child(3) {
+      border-radius: 0 .05rem .05rem 0; }
+
+.nav-list {
+  height: .35rem;
+  line-height: .35rem;
+  display: flex;
+  position: relative; }
+  .nav-list span {
+    margin-left: .35rem; }
+  .nav-list i {
+    position: absolute;
+    right: .3rem;
+    top: .11rem; }
+
+section {
+  -webkit-flex: 1;
+  overflow: scroll; }
+
+.list li {
+  padding: .2rem .3rem;
+  line-height: .22rem;
+  position: relative; }
+  .list li h3 i {
+    color: #999; }
+  .list li p {
+    display: flex; }
+    .list li p a {
+      color: #4DB8F1;
+      -webkit-flex: .2; }
+    .list li p b {
+      -webkit-flex: .3; }
+    .list li p span {
+      -webkit-flex: 1;
+      font-size: .08rem; }
+  .list li button {
+    position: absolute;
+    right: .3rem;
+    top: .2rem;
+    color: #7FDD81;
+    border: none;
+    border: 1px solid #7FDD81;
+    border-radius: .1rem;
+    padding: .03rem;
+    background: #fff; }
+.list li:nth-child(1), .list li:nth-child(2) {
+  background: url(../images/imgs/list_bg2.png) no-repeat; }
+.list li:nth-child(3), .list li:nth-child(4) {
+  background: url(../images/imgs/list_bg1.png) no-repeat; }
+
+footer {
+  height: .5rem; }
+  footer ul {
+    display: flex;
+    margin-top: .1rem; }
+    footer ul li {
+      -webkit-flex: 1;
+      text-align: center; }
+      footer ul li .fa {
+        font-size: .2rem; }
+
+/*# sourceMappingURL=style.css.map */
